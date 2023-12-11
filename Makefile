@@ -16,7 +16,6 @@ endif
 init:
 	python -m pip install --upgrade pip
 	python -m pip install -e .[dev]
-	python -m pip install -e .[server]
 
 
 all: lint test
@@ -51,3 +50,6 @@ test: lint typecheck
 		--cov-report html \
 		--cov-config=.coveragerc \
 		--cov=$(MODULE_NAME) $(MODULE_NAME)/
+
+build:
+	python -m build

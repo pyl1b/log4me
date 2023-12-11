@@ -28,6 +28,7 @@ dev = [
     "twine",
     "wheel",
     "pre-commit",
+    "build"
 ]
 tests = [
     "black",
@@ -83,6 +84,14 @@ target-version = ['py39', 'py310', 'py311']
 testpaths = [
     "log4me",
 ]
+python_files = [
+    "test_*.py", "*_test.py",
+    "tests_*.py", "*_tests.py",
+    "spec_*.py", "*_spec.py",
+    "specs_*.py", "*_specs.py",
+]
+python_classes = ["Test", "Acceptance"]
+python_functions = ["test"]
 
 
 [tool.mypy]
