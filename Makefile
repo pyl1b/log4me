@@ -17,6 +17,7 @@ init:
 	python -m pip install --upgrade pip
 	python -m pip install -e .[dev]
 	python -m pip install -e .[docs]
+	pre-commit install
 
 
 all: test build build-docs
