@@ -64,6 +64,7 @@ def get_log_file(file_path: str) -> str:
     final_dir_path = os.path.dirname(final_file_path)
     if not os.path.isdir(final_dir_path):
         os.makedirs(final_dir_path)
+    print(final_file_path)
     return final_file_path
 
 
