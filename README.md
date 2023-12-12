@@ -25,3 +25,11 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e .[dev]
 ```
+
+On Windows, to be able to serve the documentation, you may also need to
+install the `cairo2` package:
+
+```bash
+pip install pipwin
+pipwin install cairocffi
+```

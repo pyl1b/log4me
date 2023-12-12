@@ -11,11 +11,12 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "License :: OSI Approved :: MIT License",
     "Development Status :: 3 - Alpha",
-    Topic :: System :: Logging
+    "Topic :: System :: Logging",
     "Typing :: Typed",
 ]
 dependencies = [
-    "attrs==23.1.0",
+    "pydantic>=2.5.2",
+    "rich>=13.7.0"
 ]
 
 

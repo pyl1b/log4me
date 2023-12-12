@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
       "arithmatex",
+      "cairocffi",
       "fontawesome",
       "highlightjs",
       "inlinehilite",
@@ -9,6 +10,7 @@
       "mkdocs",
       "mkdocstrings",
       "noopener",
+      "pipwin",
       "poolclass",
       "pymdownx",
       "superfences"

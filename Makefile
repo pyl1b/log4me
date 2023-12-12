@@ -16,9 +16,10 @@ endif
 init:
 	python -m pip install --upgrade pip
 	python -m pip install -e .[dev]
+	python -m pip install -e .[docs]
 
 
-all: lint test
+all: test build build-docs
 
 
 sdist:
@@ -51,7 +52,7 @@ test: lint typecheck
 		--cov-config=.coveragerc \
 		--cov=$(MODULE_NAME) $(MODULE_NAME)/
 
-build:
+build-dist:
 	python -m build
 
 
