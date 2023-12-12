@@ -10,7 +10,25 @@ python -m pip install log2me
 
 ## Usage
 
-TBD
+Include the logging settings into your model and, at application
+start-up time, initialize the loggers.
+
+```python
+from pydantic_settings import BaseSettings
+from log2me import LogSettings, get_engine
+
+
+class AppSettings(BaseSettings):
+    # ...
+    logs: LogSettings = Field(
+        description="Logging settings.",
+    )
+    # ...
+
+
+settings = AppSettings()
+setup_logging(settings.logs)
+```
 
 ## Development
 
