@@ -7,9 +7,12 @@ authors = [{name = "Nicu Tofan", email = "nicu.tofan@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    Topic :: System :: Logging
+    "Typing :: Typed",
 ]
 dependencies = [
     "attrs==23.1.0",
@@ -41,7 +44,17 @@ tests = [
     "twine",
     "wheel",
 ]
-
+docs = [
+    "mkdocs",
+    "markdown-include",
+    "mkdocs-material",
+    "mkdocs-material[imaging]",
+    "mkdocstrings",
+    "mkdocstrings[python]",
+    "pymdown-extensions",
+    "pillow",
+    "cairosvg",
+]
 
 [build-system]
 build-backend = "setuptools.build_meta"
@@ -71,7 +84,7 @@ src_paths = "log4me"
 known_first_party = "log4me"
 
 
-[tools.black]
+[tool.black]
 
 # Standard black line length is 88
 line-length = 80

@@ -53,3 +53,11 @@ test: lint typecheck
 
 build:
 	python -m build
+
+
+build-docs:
+	python -m mkdocs build
+
+
+view-docs:
+	python -m mkdocs serve
