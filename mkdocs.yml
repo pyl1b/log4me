@@ -1,5 +1,5 @@
-site_name: log4me
-site_url: https://readthedocs.org/projects/log4me/
+site_name: log2me
+site_url: https://readthedocs.org/projects/log2me/
 theme:
   name: material
   features:

@@ -1,15 +1,15 @@
 # API Reference
 
-::: log4me
+::: log2me
 
 ## Settings
 
-::: log4me.settings
+::: log2me.settings
 
 ## Setup
 
-::: log4me.setup_logging
+::: log2me.setup_logging
 
 ## Debug
 
-::: log4me.print_loggers
+::: log2me.print_loggers

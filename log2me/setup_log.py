@@ -144,7 +144,7 @@ def setup_logging(stg: LogSettings, debug: bool = False) -> logging.Logger:
 
     # See all loggers.
     if debug:
-        from log4me.print_loggers import print_loggers
+        from log2me.print_loggers import print_loggers
 
         print_loggers()
 

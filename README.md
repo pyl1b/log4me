@@ -1,11 +1,11 @@
-# log4me
+# log2me
 
 Basic logging helpers.
 
 ## Installation
 
 ```bash
-python -m pip install log4me
+python -m pip install log2me
 ```
 
 ## Usage

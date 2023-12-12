@@ -1,6 +1,6 @@
-MODULE_NAME ?= log4me
-PACKAGE_NAME ?= log4me
-CONFIG_FILE ?= log4me/server/default-config.yaml
+MODULE_NAME ?= log2me
+PACKAGE_NAME ?= log2me
+CONFIG_FILE ?= log2me/server/default-config.yaml
 ifeq ($(OS),Windows_NT)
     detected_OS := Windows
 else

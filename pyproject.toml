@@ -1,5 +1,5 @@
 [project]
-name = "log4me"
+name = "log2me"
 dynamic = ["version"]
 # version = "0.0.1"
 description = "Basic logging helpers."
@@ -72,7 +72,7 @@ exclude = ["venv*", "scripts", "playground", "tests"]
 
 [tool.setuptools_scm]
 fallback_version = "0.0.1-dev"
-write_to = "log4me/__version__.py"
+write_to = "log2me/__version__.py"
 
 
 [tool.isort]
@@ -81,8 +81,8 @@ write_to = "log4me/__version__.py"
 profile = "black"
 
 skip = ["*_test.py", "test_*", "*_tests.py", "tests_*"]
-src_paths = "log4me"
-known_first_party = "log4me"
+src_paths = "log2me"
+known_first_party = "log2me"
 
 
 [tool.black]
@@ -96,7 +96,7 @@ target-version = ['py39', 'py310', 'py311']
 
 [tool.pytest.ini_options]
 testpaths = [
-    "log4me",
+    "log2me",
 ]
 python_files = [
     "test_*.py", "*_test.py",

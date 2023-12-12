@@ -135,4 +135,4 @@ docsrc/_build/
 playground/
 
 # setuptools_scm will put the version here.
-log4me/__version__.py
+log2me/__version__.py

@@ -60,7 +60,7 @@ class LogSettings(BaseModel):
         ),
     )
     base: Optional[str] = Field(
-        "log4me", description="The base logger (used with `getLogger()`)."
+        "log2me", description="The base logger (used with `getLogger()`)."
     )
     others: Dict[str, int] = Field(
         default_factory=dict,
