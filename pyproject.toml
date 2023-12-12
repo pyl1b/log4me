@@ -67,7 +67,7 @@ include-package-data = true
 
 
 [tool.setuptools.packages.find]
-exclude = ["venv*", "scripts", "playground", "tests"]
+exclude = ["venv*", "scripts", "playground", "tests", "docs", "build", "dist"]
 
 
 [tool.setuptools_scm]
